@@ -7,7 +7,6 @@ function renderAdvice() {
       <div class="icon"><img src="assets/img/midIcon.svg" alt="icon"></div>
       <div class="btn"><button id="btnClick"><img src="assets/img/btn-zar.svg" alt=""></button></div>
   `;
-  let btnClick = document.querySelector("#btnClick");
   btnClick.addEventListener("click", refresh);
 }
 
